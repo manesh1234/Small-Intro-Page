@@ -6,6 +6,7 @@ if(localStorage.getItem('name')==null){
         name = prompt("Please Enter Your Name ");
         localStorage.setItem('name', name);
     }
+    localStorage.setItem('name', name);
 }
 
 document.querySelector('#uName').innerHTML = localStorage.getItem('name');
